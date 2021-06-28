@@ -1,0 +1,47 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    color: white;
+    min-height: 200vh;
+}
+
+.box{
+    border: 6px solid white;
+    transition: 0.25s ease;
+    background: black;
+}
+
+.question-clicked{
+    background: blue;
+}
+
+/* .mousemove{
+    height: 50px;
+    width: 50px;
+    border: 2px solid blue;
+    position: absolute;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+} */
+
+nav{
+    background: pink;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: -50px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
